@@ -1,0 +1,16 @@
+{
+  "name": "mattford/phpstan-autoload",
+  "type": "project",
+  "license": "UNLICENSED",
+  "require-dev": {
+    "phpstan/phpstan": "^2.1"
+  },
+  "autoload": {
+    "files": [
+      "src/autoloader.php"
+    ],
+    "classmap": [
+      "src/"
+    ]
+  }
+}
